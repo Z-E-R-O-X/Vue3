@@ -1,4 +1,6 @@
 <script setup>
+import MiComponente from './components/MiComponente.vue';
+import AgrandarTexto from './components/AgrandarTexto.vue';
 import { ref, computed } from "vue";
 
 const name = "Vue 3";
@@ -109,6 +111,13 @@ const obtener_color = (item) => {
         {{ item }}
       </li>
     </ul>
+  </div>
+  <div>
+    <h1>Componente 1</h1>
+    <MiComponente />
+  </div>
+  <div>
+    <AgrandarTexto />
   </div>
 </template>
 
